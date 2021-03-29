@@ -1,0 +1,3 @@
+#!/bin/bash
+DEST=lib.linux*
+python2 setup.py build && cp build/${DEST}/pxpcap.so ..
